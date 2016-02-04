@@ -1,0 +1,204 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.page-container {
+    padding: 2%;
+    width: 100%;
+    background: #fcf5eb;
+}
+
+.page-container .profile {
+    width: 75%;
+    margin: 5% auto;
+}
+
+.page-container .profile .prof-img {
+    background: url(./img/prof-img.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    box-shadow: inset 0 3px 8px #333333;
+    height: 280px;
+    width: 280px;
+    margin: 0 auto 16px auto;
+}
+
+.page-container .profile .bio {
+    text-align: center;
+}
+
+.page-container .profile .bio .name {
+    font-size: 36px;
+    font-family: "Roboto", Arial;
+    font-weight: 300;
+    color: #333333;
+}
+
+.page-container .profile .bio .link {
+    position: relative;
+    font-size: 18px;
+    font-family: "Roboto", Arial;
+    text-decoration: none;
+    color: #ff69b4;
+    padding: 2px;
+}
+
+.page-container .profile .bio .link::after {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    content: "";
+    height: 2px;
+    width: 0;
+    background: #ff69b4;
+    transition: all 250ms linear;
+}
+
+.page-container .profile .bio .link:hover::after {
+    left: 0;
+    width: 100%;
+}
+
+.page-container .grid-wrapper {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+}
+
+.page-container .grid-wrapper .col {
+    display: inline-block;
+    height: 23.04vw;
+    width: 32%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0 4px 4px #777;
+}
+
+.page-container .grid-wrapper .col .box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 3px solid white;
+    opacity: 0;
+    cursor: crosshair;
+    transition: all 250ms ease-out;
+}
+
+.page-container .grid-wrapper .col:hover .box {
+    top: 7.5%;
+    left: 7.5%;
+    right: 7.5%;
+    bottom: 7.5%;
+    opacity: 1;
+}
+
+.page-container .grid-wrapper .col.col--1 {
+    background: url(https://unsplash.it/800/1200/?image=1004);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--2 {
+    background: url(https://unsplash.it/800/1200/?image=1003);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--3 {
+    background: url(https://unsplash.it/800/1200/?image=999);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--4 {
+    background: url(https://unsplash.it/800/1200/?image=615);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--5 {
+    background: url(https://unsplash.it/800/1200/?image=500);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--6 {
+    background: url(https://unsplash.it/800/1200/?image=600);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--7 {
+    background: url(https://unsplash.it/800/1200/?image=720);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--8 {
+    background: url(https://unsplash.it/800/1200/?image=800);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--9 {
+    background: url(https://unsplash.it/800/1200/?image=821);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+.page-container .grid-wrapper .col:nth-child(3n) {
+    margin-right: 0;
+}
+
+@media (max-width: 880px) {
+    .page-container .grid-wrapper .col {
+        width: 49.17%;
+        height: 35.4024vw;
+        margin-right: 1.66%;
+        margin-bottom: 1.66%;
+    }
+
+    .page-container .grid-wrapper .col:nth-child(3n) {
+        margin-right: 1.66%;
+    }
+
+    .page-container .grid-wrapper .col:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 621px) and (min-width: 621px) {
+    .page-container .grid-wrapper .col {
+        height: 70.8048vw;
+    }
+}
+
+@media (max-width: 499px) {
+    .page-container .grid-wrapper .col {
+        width: 100%;
+        height: 72vw;
+        margin-right: 0;
+        margin-bottom: 2%;
+    }
+}
+
