@@ -197,5 +197,9 @@ body {
         margin-right: 0;
         margin-bottom: 2%;
     }
+    .page-container .profile .prof-img {
+        height: 200px;
+        width: 200px;
+    }
 }
 
