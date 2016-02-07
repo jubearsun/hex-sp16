@@ -179,14 +179,12 @@ body {
 
 @media (max-width: 880px) {
     .page-container .grid-wrapper .col {
-        width: 49.17%;
-        height: 35.4024vw;
-        margin-right: 1.66%;
-        margin-bottom: 1.66%;
+        width: 49%;
+        height: 35.28vw;
     }
 
     .page-container .grid-wrapper .col:nth-child(3n) {
-        margin-right: 1.66%;
+        margin-right: 2%;
     }
 
     .page-container .grid-wrapper .col:nth-child(2n) {
