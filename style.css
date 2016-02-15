@@ -111,63 +111,63 @@ body {
 }
 
 .page-container .grid-wrapper .col.col--1 {
-    background: url(https://unsplash.it/800/1200/?image=1004);
+    background: url(./img/image_one.jpeg);
     background-repeat: none;
     background-size: cover;
     background-position: center center;
 }
 
 .page-container .grid-wrapper .col.col--2 {
-    background: url(https://unsplash.it/800/1200/?image=1003);
+    background: url(./img/image_two.jpeg);
     background-repeat: none;
     background-size: cover;
     background-position: center center;
 }
 
 .page-container .grid-wrapper .col.col--3 {
-    background: url(https://unsplash.it/800/1200/?image=999);
+    background: url(./img/image_three.jpeg);
     background-repeat: none;
     background-size: cover;
     background-position: center center;
 }
 
 .page-container .grid-wrapper .col.col--4 {
-    background: url(https://unsplash.it/800/1200/?image=615);
+    background: url(./img/image_four.jpeg);
     background-repeat: none;
     background-size: cover;
     background-position: center center;
 }
 
 .page-container .grid-wrapper .col.col--5 {
-    background: url(https://unsplash.it/800/1200/?image=500);
+    background: url(./img/image_five.jpeg);
     background-repeat: none;
     background-size: cover;
     background-position: center center;
 }
 
 .page-container .grid-wrapper .col.col--6 {
-    background: url(https://unsplash.it/800/1200/?image=600);
+    background: url(./img/image_six.jpeg);
     background-repeat: none;
     background-size: cover;
     background-position: center center;
 }
 
 .page-container .grid-wrapper .col.col--7 {
-    background: url(https://unsplash.it/800/1200/?image=720);
+    background: url(./img/image_seven.jpeg);
     background-repeat: none;
     background-size: cover;
     background-position: center center;
 }
 
 .page-container .grid-wrapper .col.col--8 {
-    background: url(https://unsplash.it/800/1200/?image=800);
+    background: url(./img/image_eight.jpeg);
     background-repeat: none;
     background-size: cover;
     background-position: center center;
 }
 
 .page-container .grid-wrapper .col.col--9 {
-    background: url(https://unsplash.it/800/1200/?image=821);
+    background: url(./img/image_nine.jpeg);
     background-repeat: none;
     background-size: cover;
     background-position: center center;
